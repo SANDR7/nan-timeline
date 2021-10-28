@@ -4,11 +4,11 @@ import Header from "./header";
 
 const Content = ({ children }) => {
   return (
-    <div>
+    <>
       <Header />
-      <main className="container mx-auto">{children}</main>
+      <main>{children}</main>
       <Footer />
-    </div>
+    </>
   );
 };
 

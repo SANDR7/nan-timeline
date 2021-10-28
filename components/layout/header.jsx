@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Logo from './partials/Logo'
 
 const Header = () => {
     return (
         <header>
-            Header
+            <Logo />
         </header>
     )
 }
