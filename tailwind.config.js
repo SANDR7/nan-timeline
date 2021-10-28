@@ -4,8 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        transparent: "transparent"
+        transparent: "transparent",
+        background: "#101010",
       },
+    },
+    fontFamily: {
+      montserrat: ["Montserrat"],
+      roboto: ["Roboto"],
     },
   },
   variants: {

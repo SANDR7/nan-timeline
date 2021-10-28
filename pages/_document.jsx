@@ -9,7 +9,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang={"en"}>
+      <Html lang={"nl"}>
         <Head>
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -22,7 +22,7 @@ class MyDocument extends Document {
 
           {/* <script async src={metaFontIcons}></script> */}
         </Head>
-        <body>
+        <body className="bg-background text-white container mx-auto font-montserrat">
           <Main />
           <NextScript />
         </body>
