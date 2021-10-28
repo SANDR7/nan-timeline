@@ -14,14 +14,8 @@ class MyDocument extends Document {
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <link rel="icon" href="/favicon.ico" />
-
-          {/* <link rel="canonical" href={metaCanonical} />
-          <meta name="description" content={metaDescription} />
-          <meta name="theme-color" content="#ff7b47" />
-          <meta name="keywords" content={metaKeywords} /> */}
-
-          {/* <script async src={metaFontIcons}></script> */}
         </Head>
+
         <body className="bg-background text-white container mx-auto font-montserrat">
           <Main />
           <NextScript />
