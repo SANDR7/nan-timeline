@@ -2,8 +2,9 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="absolute bottom-0">
             footer
+           
         </footer>
     )
 }
