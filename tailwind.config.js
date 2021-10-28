@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         transparent: "transparent",
         background: "#101010",
+        red: "#FF005F"
       },
     },
     fontFamily: {

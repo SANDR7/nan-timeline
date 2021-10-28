@@ -1,0 +1,6 @@
+.custom-button {
+    @apply border-b-2 p-3 py-2 rounded-sm w-max bg-red border-transparent;
+}
+.custom-button-border {
+    @apply border-b-2 p-3 py-2 rounded-sm w-max border-red;
+}

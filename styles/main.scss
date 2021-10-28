@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 
-html,
-body {
+* {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-@import './global/typography';
+@import './global';
 
 a {
   color: inherit;
