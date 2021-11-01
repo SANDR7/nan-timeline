@@ -11,6 +11,7 @@ const Content = ({ children }) => {
       <main className="grid grid-cols-6">
         <div className="col-span-4 lg:w-9/12">{children}</div>
         {/* <Graphic/> */}
+        <p>fancy graphic goes here</p>
       </main>
       <Footer />
     </>
